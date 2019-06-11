@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
 
   spec.swift_version = '4.0'
   
-  spec.source       = { :git => "https://github.com/Wanaldino/API.git", :tag => "0.1.0" }
+  spec.source       = { :git => "https://github.com/Wanaldino/API.git", :tag => "0.1.1" }
   spec.source_files = "API/*.swift"
 
 end
