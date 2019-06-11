@@ -54,6 +54,6 @@ class API {
         print("URL: ", APIURLRequest.urlString)
         print("HEADERS: ", APIURLRequest.httpHeaders)
         print("RESPONSE CODE: ", response?.statusCode ?? 0)
-        print("ERROR: ", error ?? nil)
+        print("ERROR: ", error ?? "")
     }
 }
